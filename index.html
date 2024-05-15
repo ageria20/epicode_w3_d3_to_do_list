@@ -13,17 +13,19 @@
     <main>
       <form id="activity">
         <article class="activity-list">
-          <input type="checkbox" />
-          <input type="text" placeholder="Inserisci attivita" required /><button
-            id="add-btn"
-          >
-            Aggiungi
+          <input
+            id="input-Text"
+            type="text"
+            placeholder="Inserisci attivita"
+            required
+          /><button id="add-btn">
+            <ion-icon id="add-btn" name="add-circle-outline"></ion-icon>
+          </button>
+          <button id="del-btn">
+            <ion-icon name="trash-outline"></ion-icon>
           </button>
         </article>
-        <article>
-          <button id="add-btn">Aggiungi</button>
-          <button id="del-btn">Elimina</button>
-        </article>
+        <article></article>
       </form>
     </main>
     <script
